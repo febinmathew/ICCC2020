@@ -1,0 +1,73 @@
+
+
+/*********************************
+10. Speakers
+*********************************/
+
+.speakers
+{
+	background: #f5f8fb;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.speakers_row
+{
+	margin-top: 58px;
+}
+.speaker
+{
+	margin-bottom: 27px;
+}
+
+.speaker:hover .speaker_image::after
+{
+	visibility: visible;
+	opacity: 1;
+}
+.speaker_info
+{
+	border-radius: 8px;
+	position: absolute;
+	left: 22px;
+	bottom: 22px;
+	width: 321px;
+	height: 120px;
+	background: #0a2642;
+	padding-left: 21px;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+.speaker:hover .speaker_info
+{
+	background: #221831;
+}
+.speaker_name 
+{
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	line-height: 1.2;
+}
+.speaker_name a:hover
+{
+	color: #0a2642;
+}
+.speaker_title
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 1.2;
+	margin-top: 1px;
+}
+.speaker_des
+{
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	line-height: 1.2;
+	margin-top: 1px;
+}
